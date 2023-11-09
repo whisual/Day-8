@@ -1,13 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
-    <>
-      <div>
-        <h1>Hello</h1>
-      </div>
-    </>
+    <div className="App">
+     <h1 className='text-4xl underline'>Password Generator Application</h1>
+    </div>
   );
 }
 
